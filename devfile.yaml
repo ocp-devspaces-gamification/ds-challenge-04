@@ -1,6 +1,6 @@
 schemaVersion: 2.2.2
 metadata:
-  name: ds-challenge-03
+  name: ds-challenge-04
 components:
   - name: tools
     container:
