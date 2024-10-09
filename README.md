@@ -12,15 +12,15 @@
 ### Set Up + verification
 * Reminder : You should have created this workspace from your teams challenges folder in source control
 * Open a terminal. Run the command "chmod 755 mvnw" to change the mvnw file to be executable
-* Run the quarkus application using commands "2. Start Development mode" you created in devfile. See success criteria on how to run the command
+* Run the quarkus application using commands "2. Start Development mode" from devfile like you did in the previous lab(s)
 * Select your option "y/n" to the question (if asked) : Do you agree to contribute anonymous build time data to the Quarkus community?
 * Open a new terminal and execute "curl localhost:8080/api/challenge04". The response from the method has an error. The fifth character is "S" but it is returning "h"
 * Open the "src/main/java/org/acme/ChallengeResource.java" and inspect the method challengeMethod()
 * Try to put a breakpoint and you realize that they do not work and or a way to do it
 * Find out what extension is required for adding breakpoints. Include the required line in the file ".vscode/extensions.json"
-* Once you update the extensions.json, close the window, restart your workspace, ensure the extension is 
-* If things don't look OK, delete the workspace, update the devfile directly in source control and recreate the workspace
-
+* Once you update the extensions.json, close the window, restart your workspace. Now you should be able to put a breakpoint in the challenge04() method
+* Rerun the quarkus application using commands "2. Start Development mode". You should see Debug functionality
+* Now fix the code, execute "curl localhost:8080/api/challenge04" to see you are seeing "The Fifth Chatacter in the word "OpenShift"=[S]"
 
 ### Success Criteria
 * ".vscode/extensions.json" is updated with the required debug extension
