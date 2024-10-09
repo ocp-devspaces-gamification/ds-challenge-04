@@ -11,19 +11,8 @@
 
 ### Set Up + verification
 * Reminder : You should have created this workspace from your teams challenges folder in source control
-* It's time to create standardized commands. You will create two commands in devfile.yaml
-    * Create 1st command with id "1-package" and label (1. Package the application) inside devfile to execute "mvn package"
-    * Create 2nd command with id "2-startdev" and lable (2. Start Development mode) inside devfile to execute "mvw compile quarkus:dev"
-    * Leverage the Resources section and find how you can create commands in devfile.yaml
-* Creating Two Endpoints
-    * The "src/main/java/org/acme/GreetingResource.java" has restful endpoints : 
-        * localhost:8080
-        * localhost:8080/api/hello
-        * localhost:8080/api/greet/#input
-    * Create 1st endpoint for "/api/hello" [with name="greet-attendee"]
-    * Create 2nd endpoint for the root "/" [with name=base-challenge]
-    * Leverage the Resources section and find how you can create endpoints in devfile.yaml    
-* Once you complete the above, commit the changes back to the repository
+* Open a terminal. Run the command "chmod 755 mvnw" to change the mvnw file to be executable
+* Open the "src/main/java/org/acme/ChallengeResource.java" 
 * Open the repository in devspaces from your teams
 * So, we have our extension "Language Support for Java(TM) by Red Hat" and tools that are required for development are already present : Type "oc --help", "jq --help" etc are already installed
 * In devspaces, Open a terminal. Run the command "chmod 755 mvnw" to change the mvnw file to be executable
