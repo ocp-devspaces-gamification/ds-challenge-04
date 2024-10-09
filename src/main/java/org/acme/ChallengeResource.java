@@ -17,10 +17,10 @@ public class ChallengeResource {
     public String challengeMethod() {
         String name = "OpenShift DevSpaces";
         int length = name.length();
-        for (int i=1; i<length; i++){
-            char myChat = name.charAt(i);
-            if(i==5){
-                char fifthCharacter = name.charAt(5);
+        for (int index=1; index<length; index++){
+            char myChat = name.charAt(index);
+            if(index==5){
+                char fifthCharacter = name.charAt(index);
                 return "The Fifth Chatacter in the word \"OpenShift\"=["+fifthCharacter+"]\n";                
             }
         }
