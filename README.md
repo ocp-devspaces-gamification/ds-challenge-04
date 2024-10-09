@@ -1,8 +1,13 @@
-## Challenge-03
+## Challenge-04
 
 ### Scenario
-* Lets continue to enhance the ds-challenge-02
-* So far we have done consistent way of creating tooling and extensions. Let's take a step further by enhancing this to create consistent way to build, package, run the programs and also creating standardized end points
+* Lets continue to built on top of ds-challenge-03
+* What we have done so far to reduce Developers pain points?
+    * Automatic Extensions (Language Support for Java(TM) by Red Hat) inclusion
+    * Automatic provisioning of required command line tools
+    * Consistent way of building, packaging and running the programs
+    * Consistent way of creating standardized end points for current and future testing
+* This section will explore on adding more extensions in consistent way and also debugging code
 
 ### Set Up + verification
 * Reminder : You should have created this workspace from your teams challenges folder in source control
