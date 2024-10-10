@@ -7,7 +7,7 @@
 ### Set Up + verification
 * Open a terminal. Run the command "chmod 755 mvnw" to change the mvnw file to be executable
 * Refer to the Resources section and find out how to add memory and cpu requirements
-* Change the Memory : [Reqeust to 512MB and Limit : 2Giga Bytes] and CPU : [Reqeust : 500millicore and Limit : 2000 millicore]
+* Change the Memory : [Reqeust to 512MB and Limit : 2Giga Bytes] and CPU : [Reqeust : 500millicore and Limit : 2000 millicore] to the "tools" container
 
 ### Success Criteria
 * The devfile is updated with the memory and cpu requests and limits
