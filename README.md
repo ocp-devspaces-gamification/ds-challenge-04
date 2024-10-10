@@ -16,8 +16,8 @@
 ### Resources 
 * https://devfile.io/docs/2.3.0
 
-### What did we learn
-* What we have done so far to reduce Developers pain points? As a Developer, your life is getting simpler with the below
+### What did we learn?
+* OpenShift DevSpaces reduces the Developers pain points. As a Developer, your life is getting simpler with the below
     * Automatic Extensions (Language Support for Java(TM) by Red Hat) inclusion
     * Automatic provisioning of required command line tools
     * Consistent way of building, packaging and running the programs
