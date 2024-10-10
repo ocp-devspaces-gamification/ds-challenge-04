@@ -2,11 +2,6 @@
 
 ### Scenario
 * Lets continue to built on top of ds-challenge-03
-* What we have done so far to reduce Developers pain points?
-    * Automatic Extensions (Language Support for Java(TM) by Red Hat) inclusion
-    * Automatic provisioning of required command line tools
-    * Consistent way of building, packaging and running the programs
-    * Consistent way of creating standardized end points for current and future testing
 * This section will explore on adding additional resources to the environment. There will be situations where a certain service testing needs more resources. In a traditional laptop, these type of resources may not be available either due to resource constraints or because the workload under test needs specific types of resources (example: GPUs). That forces the developers to either upgrade the machine and or create a whole new setup on another machines.
 
 ### Set Up + verification
@@ -22,7 +17,7 @@
 * https://devfile.io/docs/2.3.0
 
 ### What did we learn
-* As a Developer, your life is getting simpler with the below
+* What we have done so far to reduce Developers pain points? As a Developer, your life is getting simpler with the below
     * Automatic Extensions (Language Support for Java(TM) by Red Hat) inclusion
     * Automatic provisioning of required command line tools
     * Consistent way of building, packaging and running the programs
