@@ -7,28 +7,19 @@
     * Automatic provisioning of required command line tools
     * Consistent way of building, packaging and running the programs
     * Consistent way of creating standardized end points for current and future testing
-* This section will explore on adding more extensions in consistent way and also debugging code
+* This section will explore on adding additional resources to the environment. There will be situations where a certain service testing needs more resources. In a traditional laptop, these type of resources may not be available either due to resource constraints or because the workload under test needs specific types of resources (example: GPUs). That forces the developers to either upgrade the machine and or create a whole new setup on another machines.
 
 ### Set Up + verification
-* Reminder : You should have created this workspace from your teams challenges folder in source control
 * Open a terminal. Run the command "chmod 755 mvnw" to change the mvnw file to be executable
-* Run the quarkus application using commands "2. Start Development mode" from devfile like you did in the previous lab(s)
-* Select your option "y/n" to the question (if asked) : Do you agree to contribute anonymous build time data to the Quarkus community?
-* Open a new terminal and execute "curl localhost:8080/api/challenge04". The response from the method has an error. The fifth character is "S" but it is returning "h"
-* Open the "src/main/java/org/acme/ChallengeResource.java" and inspect the method challengeMethod()
-* Try to put a breakpoint and you realize that they do not work and or a way to do it
-* Find out what extension is required for adding breakpoints. Include the required line in the file ".vscode/extensions.json"
-* Once you update the extensions.json, close the window, restart your workspace. Now you should be able to put a breakpoint in the challenge04() method
-* Rerun the quarkus application using commands "2. Start Development mode". You should see Debug functionality
-* Now fix the code, execute "curl localhost:8080/api/challenge04" to see you are seeing "The Fifth Chatacter in the word "OpenShift"=[S]"
+* Refer to the Resources section and find out how to add memory and cpu requirements
+* Change the Memory : [Reqeust to 512MB and Limit : 2Giga Bytes] and CPU : [Reqeust : 500millicore and Limit : 2000 millicore]
 
 ### Success Criteria
-* ".vscode/extensions.json" is updated with the required debug extension
-* You have used the debugger to fix the challenge04() method
+* The devfile is updated with the memory and cpu requests and limits
+* Reload the devspaces [Click the Arrows symbol(><) in the Bottom Left corner to open a new menu] with option "Restart with local Dev file"
 
 ### Resources 
-* https://go.microsoft.com/fwlink/?LinkId=827846
-* 
+* https://devfile.io/docs/2.3.0
 
 ### What did we learn
 * As a Developer, your life is getting simpler with the below
@@ -36,5 +27,4 @@
     * Automatic provisioning of required command line tools
     * Consistent way of building, packaging and running the programs
     * Consistent way of creating standardized end points for current and future testing
-* Added to it, now you can debug just the way your normal IDE is
-* Developers can get a requirement to test a service that needs very high resources that are not available on the laptops/desktops. The only way to deal in that scenario is to either update the laptop hardware or code in a different machine (where you will have to reconfigure the entire environment). Lets see how we can handle such scenario without losing all the benefits in the next challenge?
+* Now you can request additional resources easily similar to any workload in the kubernetes
