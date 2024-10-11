@@ -12,10 +12,10 @@
     * CPU : [Reqeust : 500millicore and Limit : 2000 millicore] 
 * Add an "Post Start" event in the devfile to leverage the package command
 
+
 ### Success Criteria
 * The devfile is updated with the memory and cpu requests and limits
 * Reload the devspaces [Click the Arrows symbol(><) in the Bottom Left corner to open a new menu] with option "Restart with local Dev file".
-  > [!NOTE]   
   > Due to the post start task, this process will take a while because the DevSpaces is downloading all the libraries. The UI is shown after the downloads are complete
 
   ![ ](docs/images/challenge04.reload.jpg)
