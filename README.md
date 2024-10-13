@@ -11,9 +11,9 @@
   ```
 * Refer to the Resources section and find out how to add memory and cpu requirements in devfile containers
 * Add constructs for Resources to the "tools" container
-    * Memory    : [Request to 512MB and Limit : 2Giga Bytes]
-    * CPU       : [Reqeust : 500millicore and Limit : 2000 millicore] 
-* Add an "Post Start" event in the devfile to leverage the package command
+    * Memory    : [Request : 512MB          and Limit : 2Giga Bytes]
+    * CPU       : [Request : 500millicore   and Limit : 2000 millicore] 
+* Add a "Post Start" event in the devfile to leverage the package command. 
 
 
 ### Success Criteria
@@ -37,4 +37,4 @@
     * Consistent way of creating standardized end points for current and future testing
 * Now you can 
     * Request additional resources easily similar to any workload in the kubernetes
-    * Add events to your IDE which can allow to do tasks before start, after start or after stop
+    * Add events to your IDE which can allow to do tasks : before start, after start or after stop of the workspace
