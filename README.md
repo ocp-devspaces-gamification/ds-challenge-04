@@ -23,7 +23,7 @@
  
   ![ ](docs/images/challenge04.reload.jpg)
 
-* After reloading when you run the task "2. Start Development mode", it is quicker
+* After reloading when you run the task "2. Start Development mode", you will notice it is quicker
 
 ### Resources 
 * https://devfile.io/docs/2.2.2
