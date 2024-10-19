@@ -18,7 +18,7 @@
 
 ### Success Criteria
 * The devfile is updated with the memory and cpu requests and limits
-* Reload the devspaces [Click the Arrows symbol(><) in the Bottom Left corner to open a new menu] with option "Restart with local Dev file". 
+* Reload the devspaces [Click the Arrows symbol(><) in the Bottom Left corner to open a new menu] with option "Restart Workspace from Local Devfile".
   > Due to the post start task, this process will take a while because the DevSpaces is downloading all the libraries. The UI is shown after the downloads are complete 
  
   ![ ](docs/images/challenge04.reload.jpg)
